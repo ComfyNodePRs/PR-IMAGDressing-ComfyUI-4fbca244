@@ -1,0 +1,15 @@
+[project]
+name = "imagdressing-comfyui"
+description = "a custom nodde for [a/IMAGDressing](https://github.com/muzishen/IMAGDressing)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["accelerate", "aiohttp", "aiosignal", "annotated-types", "async-timeout", "attrs", "bitsandbytes", "certifi", "charset-normalizer", "datasets", "deepspeed;sys_platform!='win32'", "diffusers", "peft", "dill", "einops", "filelock", "frozenlist", "fsspec", "hjson", "huggingface-hub", "idna", "importlib_metadata", "Jinja2", "MarkupSafe", "mpmath", "multidict", "multiprocess", "networkx", "ninja", "numpy", "pandas", "pillow", "psutil", "py-cpuinfo", "pyarrow", "pyarrow-hotfix", "pydantic", "pydantic_core", "pynvml", "python-dateutil", "pytz", "PyYAML", "regex", "requests", "safetensors", "six", "sympy", "tokenizers", "tqdm", "transformers", "typing_extensions", "tzdata", "urllib3", "xxhash", "yarl", "zipp", "insightface", "opencv-python", "onnxruntime;sys_platform == \"win32\"", "onnxruntime-gpu;sys_platform != \"win32\""]
+
+[project.urls]
+Repository = "https://github.com/AIFSH/IMAGDressing-ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "IMAGDressing-ComfyUI"
+Icon = ""
